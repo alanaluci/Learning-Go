@@ -1,1 +1,8 @@
 errando ==> aprendendo ==> evoluindo
+
+
+//operador de declaração ":=" "marmota",  só funciona dentro de um code block
+// operador de atribuição "=", atribuição é global, declaração é especifico
+
+Go não muda tipo de variavel, uma vez um tipo sempre o mesmo
+
