@@ -1,0 +1,12 @@
+
+type hotdog int
+var b hotdog = 10
+
+
+func main() {
+    x := 10
+    fmt.Printf("%w\n", x)
+    fmt.Printf("%w\n", b)
+
+    x = int(b) //só assim para transformar uma coisa na outra //conversão
+}

@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+var x int = 42
+var y string = "James Bond"
+var z bool = true
+
+func main() {
+
+
+	//fmt.Printf("%T %v", x, x)
+	//fmt.Printf("%T %v", y, y)
+	//fmt.Printf("%T %v", z, z)
+
+	s := fmt.Sprintf("%v %v %v", x, y, z)
+	fmt.Println(s)
+}
