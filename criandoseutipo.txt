@@ -8,5 +8,5 @@ func main() {
     fmt.Printf("%w\n", x)
     fmt.Printf("%w\n", b)
 
-    x = int(b) //só assim para transformar uma coisa na outra //conversão
+    x := int(b) //só assim para transformar uma coisa na outra //conversão
 }
