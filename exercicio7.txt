@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+    x := 1
+    y := 2
+    equal := x == y
+    diff := x != y
+    le := x <= y
+    l := x < y
+    me := x >= y
+    m := x > y
+
+    Println(equal,diff, le, l, me, m)
+}

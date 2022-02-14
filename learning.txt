@@ -10,3 +10,7 @@ quando a gnt faz a declaração da var sem dar o valor a gnt só pode colocar a 
 Go não muda tipo de variavel, uma vez um tipo sempre o mesmo
 
 entre acento ao contrário ` o tipo fica literal (rune literal)
+
+numero decimal string %v ou %d
+numero binario string %b
+numero hexadecimal string %#x
