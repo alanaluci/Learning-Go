@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	if x := 50; x > 10 {
+		fmt.Println("x > 10")
+	} else if x < 10 {
+		fmt.Println("x < 10")
+	} else {
+		fmt.Println("x não é nem maior nem menor")
+	}
+
+}
