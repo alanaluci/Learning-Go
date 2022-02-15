@@ -1,0 +1,14 @@
+//n]ao existe while em go
+//uma forma de fazer
+
+package main
+
+import "fmt"
+
+func main() {
+	x := 0
+	for x < 10 {
+		fmt.Println("x é menor que 10")
+		x++
+	}
+}
