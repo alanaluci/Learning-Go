@@ -1,0 +1,10 @@
+func main(){
+    for i := 0; i <20; i++{
+        if i%2 != 0 {
+            //faz isso quando o número não é par
+            continue
+        }
+        //se for par imprime
+        fmt.Println(i)
+    }
+}
