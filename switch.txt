@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	funcionario := "ze"
+
+	switch funcionario {
+	case "ze":
+		fmt.Println("hoje quem ta no escritorio é o zé")
+		fallthrough // faz com que o de baixo tbm seja verdadeiro
+	case "joao":
+		fmt.Println("sempre que o zé vem o joao vem")
+	case "joana":
+		fmt.Println("hoje quem ta no escritorio é a joana")
+	case "maria":
+		fmt.Println("hoje quem ta no escritorio é a maria")
+
+	}
+}
